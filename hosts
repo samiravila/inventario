@@ -1,0 +1,11 @@
+[local]
+ansible-server
+
+[lb]
+balancer
+
+[webservers]
+webserver[1:2]
+
+[db]
+dbserver
